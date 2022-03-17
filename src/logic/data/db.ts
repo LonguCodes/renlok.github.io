@@ -1,9 +1,29 @@
 export interface PokedexEntry {
     pokemon: { Pokemon: string }[]
     stats:{
-        "catch rate": number,
-        "growth rate": number
-    }[]
+        "catch rate": string,
+        "growth rate": string
+        hp: string,
+        attack:string,
+        defense:string,
+        "sp atk": string,
+        "sp def": string,
+        speed: string,
+        types: string[]
+    }[],
+    exp: {
+        "base exp":string
+    }[],
+    images: {
+        normal:{
+            front:string,
+            back:string
+        },
+        shiny: {
+            front:string,
+            back:string
+        }
+    }
 }
 
 export const POKEDEX: PokedexEntry[] = [

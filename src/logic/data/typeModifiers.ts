@@ -1,4 +1,4 @@
-const TYPES = {
+export const TYPES = {
 	"Fire" : {
 		"Fire" : .5,
 		"Water" : .5,

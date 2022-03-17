@@ -1711,10 +1711,6 @@ export const EVOLUTIONS = {
         "level": "100",
         "to": "B-Kyurem"
     },
-    "W-Kyurem": {
-        "level": "100",
-        "to": "Kyurem"
-    },
     "Vaporeon": {
         "level": "25",
         "to": "Jolteon"
@@ -1806,10 +1802,6 @@ export const EVOLUTIONS = {
     "H-Rotom": {
         "level": "5",
         "to": "W-Rotom"
-    },
-    "W-Rotom": {
-        "level": "5",
-        "to": ""
     },
     "W-Rotom": {
         "level": "5",
